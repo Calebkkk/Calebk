@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Truculenta', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #7e5200;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    background-color: #e0e0e0;
+    color: black;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px
+}
+
+div {
+    margin-top: 20px;
+    padding: 3px 0px 0px 3px;
+    border-radius: 0px 0px 80px 0px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.posteo {
+    background-color: #ffdb58;
+}
+
+.anuncio {
+    background-color: #ff6347;
+}
+
+#foto-perfil {
+    border-radius: 50%;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#nombre-usuario {
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+h3 {
+    border: 1px solid black;
+    border-radius: 0 50px 50px 0;
+    background-color: white;
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 40px;
+}
+p {
+  font-size: 30px;
+}
